@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dictionary.ControlStart">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0">
+         <image>
+            <Image url="@image/background.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#fc8a00" layoutX="83.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DICTIONARY">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="100.0" />
+         </font>
+      </Text>
+      <Button fx:id="start" layoutX="309.0" layoutY="273.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="183.0" text="Tra từ" textFill="#972828">
+         <font>
+            <Font name="Arial Bold" size="43.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
